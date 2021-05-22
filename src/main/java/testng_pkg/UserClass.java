@@ -21,4 +21,9 @@ public class UserClass {
         double grossSalary = getPf()+basicSalary;
         return grossSalary;
     }
+
+    public double getMedical() {
+        double medical = basicSalary/5;
+        return medical;
+    }
 }

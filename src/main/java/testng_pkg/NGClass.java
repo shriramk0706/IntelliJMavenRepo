@@ -17,4 +17,11 @@ public class NGClass {
         double totalSalary = user1.getGrossSalary();
         Assert.assertEquals(15000, totalSalary);
     }
+
+    @Test
+    public void getMedicalBill() {
+        UserClass user2 = new UserClass("Jennifer", 3333, 30000);
+        double medicalBill = user2.getMedical();
+        Assert.assertEquals(6000, medicalBill);
+    }
 }

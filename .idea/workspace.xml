@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42e8a3e2-8c3c-45e0-b11f-1aa694d5d6f0" name="Default Changelist" comment="" />
+    <list default="true" id="42e8a3e2-8c3c-45e0-b11f-1aa694d5d6f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testng_pkg/NGClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testng_pkg/NGClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testng_pkg/UserClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testng_pkg/UserClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng_pkg/NGClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng_pkg/NGClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng_pkg/UserClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testng_pkg/UserClass.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,7 +33,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1stH257LBtn4kY6ZEmVJZ1fxDkK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -41,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.NGClass.getProvidentFund">
     <configuration name="NGClass" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="NewMvenProjectForJenkins" />
       <extension name="coverage">
@@ -55,6 +67,33 @@
       <option name="MAIN_CLASS_NAME" value="testng_pkg.NGClass" />
       <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NGClass.getProvidentFund" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="NewMvenProjectForJenkins" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testng_pkg.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="testng_pkg" />
+      <option name="MAIN_CLASS_NAME" value="testng_pkg.NGClass" />
+      <option name="METHOD_NAME" value="getProvidentFund" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea -Dtestng.dtd.http=true" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
@@ -86,8 +125,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.NGClass" />
+      <item itemvalue="TestNG.NGClass.getProvidentFund" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.NGClass.getProvidentFund" />
         <item itemvalue="TestNG.NGClass" />
       </list>
     </recent_temporary>
@@ -104,5 +148,16 @@
       <updated>1621684754973</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
